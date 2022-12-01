@@ -1,3 +1,5 @@
+# yahtzee rules: http://yahtzee-rules.com/
+
 # Main execution context
 def main (): 
 

@@ -5,7 +5,7 @@ import scorecard
 class Player:
 
     # Class constructor 
-    def __init__(name, index):
+    def __init__(name, index, roundCount):
         self.name = name
         self.index = index
-        self.scoreCard = ScoreCard()
+        self.scoreCard = ScoreCard(roundCount)
