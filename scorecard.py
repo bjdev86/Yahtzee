@@ -2,7 +2,7 @@
 # plyer's scores for a whole game (3 rounds) are store in this object 
 
 class ScoreCard: 
-    def __init__(roundCount):
+    def __init__(self, roundCount):
         self.rounds = [ dict.fromkeys(scorableCombos, initialComboVals) ]
 
         # Loop through to the round count adding rounds 
