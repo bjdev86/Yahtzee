@@ -5,7 +5,9 @@ def main ():
 
     # Local Variable Declaration 
     userInput = ""
-
+    playerCount = 0
+    roundCount = 0
+    
     # Get user input from the command line 
     userInput = input("Enter a number from 1-10 ('q' to quite): ")
 
@@ -17,5 +19,8 @@ def main ():
         # Get user input from the command line 
         userInput = input("Enter a number from 1-10 ('q' to quite): ")
 
+def calculateGameScore():
+    #
+    print ("TO DO")
 # Call main to start the program 
 main()
